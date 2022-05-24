@@ -3,7 +3,7 @@
 function binariSearch(list, item) {
     let low = 0;
     let high = list.length - 1;
-    /*let counter = 0;*/
+    /*let counter = 0;*/ //* создание переменной для подсчёта O-большое
 
     while (low <= high) {
         let mid = Math.floor((low + high) / 2);
